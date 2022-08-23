@@ -24,3 +24,6 @@ console.log(Number(usuarioConectado2)); // teremos a conversão da booleana para
 usuarioConectado2 = true;
 console.log(Number(usuarioConectado2)); // agora teremos a conversão de true (verdadeiro) para o número 1.
 
+const idade1 = 18;
+const idade2 = 20;
+console.log(idade1 >= idade2 ? "idade1 maior" : "idade2 maior");
