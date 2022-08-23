@@ -13,3 +13,14 @@ console.log(cifrao)
 console.log(aMaiusculo)
 console.log(tique)
 console.log(hiragana)
+
+let usuarioConectado = false;
+console.log(String(usuarioConectado)); // teremos a conversão da booleana para string, nesse caso teremos uma string “false”.
+usuarioConectado = true;
+console.log(String(usuarioConectado)); // agora teremos uma string “true”.  
+
+let usuarioConectado2 = false;
+console.log(Number(usuarioConectado2)); // teremos a conversão da booleana para número, sendo que false (falso) retorna o número 0.
+usuarioConectado2 = true;
+console.log(Number(usuarioConectado2)); // agora teremos a conversão de true (verdadeiro) para o número 1.
+
